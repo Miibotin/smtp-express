@@ -1,0 +1,22 @@
+{
+  "name": "smtp",
+  "version": "1.0.0",
+  "description": "Smtp-application for my website",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.0"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Mikko Hannukainen",
+  "license": "ISC"
+}
